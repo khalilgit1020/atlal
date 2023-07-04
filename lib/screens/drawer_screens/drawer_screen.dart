@@ -111,7 +111,7 @@ class DrawerScreen extends StatelessWidget {
           ),
 
 
-          ListTile(
+          /*ListTile(
             onTap: (){
               Get.to(() =>ProductsScreen());
             },
@@ -121,7 +121,7 @@ class DrawerScreen extends StatelessWidget {
               style: GoogleFonts.cairo(),
             ),
           ),
-
+*/
 
           ListTile(
             onTap: (){
