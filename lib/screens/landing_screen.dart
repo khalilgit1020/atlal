@@ -6,6 +6,7 @@ import 'package:get/get.dart';
 
 import '../getx/bottom_nav_controller.dart';
 import '../statics.dart';
+import 'drawer_screens/products_screen.dart';
 
 class LandingPage extends StatelessWidget {
 
@@ -44,7 +45,7 @@ class LandingPage extends StatelessWidget {
           ),
           label: 'المدونة'.tr,
           backgroundColor: Color.fromRGBO(36, 54, 101, 1.0),
-        ),/*
+        ),
         BottomNavigationBarItem(
           icon: Icon(
             Icons.production_quantity_limits,
@@ -52,7 +53,7 @@ class LandingPage extends StatelessWidget {
           ),
           label: 'منتجاتنا'.tr,
           backgroundColor: Color.fromRGBO(36, 54, 101, 1.0),
-        ),*/
+        ),
       ],
     ));
   }
@@ -77,7 +78,7 @@ class LandingPage extends StatelessWidget {
             children: [
               HomeScreen(),
               PostsScreen(),
-              //ProductsScreen(),
+              ProductsScreen(),
              // WebViewScreen(url: GlobalWords().productUrlAr.tr,isProduct: true,),
              // InformationScreen(),
             ],
